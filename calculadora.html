@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculadora.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="tela">
+        <div class="tela-resultado">
+            <p id="resultado"></p>
+        </div>
+
+        <div class="teclado">
+            <div class="teclado-linha">
+                <div class="teclado-btn operador-2" onclick="clean()">AC</div>
+                <div class="teclado-btn operador-2">+/-</div>
+                <div class="teclado-btn operador-2"  onclick="numero('%')">%</div>
+                <div class="teclado-btn operador" onclick="numero('/')">/
+                </div>
+                
+            </div>
+
+        <div class="teclado-linha">
+            <div class="teclado-btn" onclick="numero('7')">7</div>
+            <div class="teclado-btn"onclick="numero('8')">8</div>
+            <div class="teclado-btn"onclick="numero('9')">9</div>
+            <div class="teclado-btn operador" onclick="numero('x')">x</div>
+            
+        </div>
+        <div class="teclado-linha">
+            <div class="teclado-btn"onclick="numero('4')">4</div>
+            <div class="teclado-btn"onclick="numero('5')">5</div>
+            <div class="teclado-btn"onclick="numero('6')">6</div>
+            <div class="teclado-btn operador" onclick="numero('-')">-</div>
+            
+        </div>
+        <div class="teclado-linha">
+            <div class="teclado-btn"onclick="numero('1')">1</div>
+            <div class="teclado-btn"onclick="numero('2')">2</div>
+            <div class="teclado-btn"onclick="numero('2')">3</div>
+            <div class="teclado-btn operador" onclick="numero('+')">+</div>
+            
+        </div>
+
+        <div class="teclado-linha">
+           
+            <div class="teclado-btn btn-0"onclick="numero('0')"><label>0</label></div>
+            <div class="teclado-btn"  onclick="numero(',')">,</div>
+            <div class="teclado-btn operador" onclick="calcular()">=</div>
+        </div>
+   
+    </div>
+       
+         
+    </div>
+</div>
+<script src="calculadora.js"></script>
+</body>
+</html>
