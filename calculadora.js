@@ -1,7 +1,16 @@
 
 function numero(num){
     let numero = document.getElementById("resultado").innerHTML;
-    document.getElementById("resultado").innerHTML = numero + num;
+    if(numero == 0){
+        
+        document.getElementById("resultado").innerHTML = num;
+    }else{
+        document.getElementById("resultado").innerHTML = numero + num;
+    
+     }
+   
+    
+    
 }
 
 function clean(){
@@ -14,3 +23,5 @@ function calcular(){
         document.getElementById("resultado").innerHTML = eval(numero)
     } 
 }
+
+
