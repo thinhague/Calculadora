@@ -1,0 +1,74 @@
+body{
+    color: white;
+   margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: arial;
+}
+.tela-resultado{
+    height: 35%;
+    font-size: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 15px;
+}
+.teclado{
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.tela{
+    width: 375px;
+    height: 812px;
+    background-color: black;
+    border-radius: 20px;
+ 
+}
+
+
+
+.teclado-linha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+.teclado-btn{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 9px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #333;
+    font-size: 30px;
+    cursor: pointer;
+}
+.hover:hover{
+    background-color: rgb(255,255,255,0.5);
+
+
+}
+.btn-0{
+    display: flex;
+    justify-content: flex-start;
+    width: 155px;
+    border-radius: 50px;
+}
+.teclado-linha label{
+    padding-left: 20px;
+}
+.operador{
+    background-color: rgb(245, 142, 7);
+}
+.operador-2{
+    background-color: #999;
+    color: black;
+}
+.tela-resultado p{
+    margin: 0;
+}
