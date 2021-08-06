@@ -50,7 +50,7 @@ foi desenvolvido para parecer com a calculadora básica do Iphone, com suas func
 ```sh
 git clone https://github.com/thinhague/Calculadora
 cd Calculadora
-Depois disso é so mecher no projeto.
+Depois disso é so mexer no projeto.
 ```
 
 
